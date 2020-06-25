@@ -1,1 +1,5 @@
 .DS_Store
+yolov3.weights
+venv_new
+__pycache__
+.idea
