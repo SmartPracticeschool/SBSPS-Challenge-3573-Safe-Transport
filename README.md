@@ -1,13 +1,13 @@
-# SBSPS-Challenge-3573-Safe-Transport
+# RailrushAndroid
+This is a client Android app which displays the <b>crowd count</b> (number of peoples present) in the train, at which station the train was last seen at and also other info such as starting and destination station of each train
+The trains data is offline apart from <b>crowd count</b> and last station which is fethed from the server which is hosted on an EC2 
+The code for the server is also present in my other Repository named Railrush <a href="https://github.com/itsdevbrat/Railrush">link to repo</a>
 
-SAFE TRANSPORT CV Model for Train Crowd Detection
+# Tech Stack
+Frontend : Android
+Backend : Node
 
-SAFE TRANSPORT FRONT-END for Train Passengers
-Android app showing the current crowd in the train with color coding for easier to understand to passengers.
-
-SAFE TRANSPORT Front-end for bus conductor
-
-Android app consisting of static data, haveing pop up functionality with alert sound when bus limit is fulfilled. UI contains list of bus stops, with no of passengers that will get down at each stop. Red circle signifies that the bus will not halt at that pariticular bus-stop
-
-
-SAFE TRANSPORT CV MODEL for bus conductor
+# Installation Instructions
+1. Clone the repo
+2. Install android studio
+3. Build and run the project
