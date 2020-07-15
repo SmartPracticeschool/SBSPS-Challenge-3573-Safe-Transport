@@ -18,9 +18,6 @@
 * UI contains list of bus stops, with no of passengers that will get down at each stop. 
 * Red circle signifies that the bus will not halt at that pariticular bus-stop
 
-## SAFE TRANSPORT Back-end for bus conductor
-* Backend for processing the video from the recorder and shows results to frontend of the application.
-
 ## SAFE TRANSPORT CV Model for bus conductor
 * Head count model used to detect the no. of passenger onboarded or offboarded from the bus.
 
