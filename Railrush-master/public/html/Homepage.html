@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <style>
+            *{
+                padding: 10px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                background-color: black;
+            }
+            .body{
+                background-color: black;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            .stationbox{
+                width: 300px;
+                height: auto;
+                color: aliceblue;
+                border: aliceblue 1px solid;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 10px;
+                align-items: center;
+                margin: 10px;
+            }
+            input{
+                display: none;
+            }
+            button{
+                border: aliceblue 1px solid;
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+                font-weight: 900;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" id="trainId" style="display: flex; background:white;" />
+        <div class="body">
+            <div id = "Virar" class="stationBox"> 
+                <div class="stationName">Virar</div>
+                <img class="plusIcon" src="https://cdn4.iconfinder.com/data/icons/material-design-content-icons/512/add-circle-512.png"/>
+                <input type="file" accept="video/* image/*" name="videoInput" class="fileInput"/>
+                    Upload Progress  
+                <span class="progressBar">  0%   </span>
+                <div class="fileData"></div>
+                <button class="resumeButton" style="visibility: hidden;">Resume Upload</button>
+                <button class="uploadButton" >  Upload File  </button>
+            </div>
+            <div id = "Bhayandar" class="stationBox">
+                <div class="stationName">Bhayandar</div>
+                <img class="plusIcon" src="https://cdn4.iconfinder.com/data/icons/material-design-content-icons/512/add-circle-512.png"/>
+                <input type="file" accept="video/* image/*" name="videoInput" class="fileInput"/>
+                    Upload Progress  
+                <span class="progressBar">  0%   </span>
+                <div class="fileData"></div>
+                <button class="resumeButton" style="visibility: hidden;">Resume Upload</button>
+                <button class="uploadButton" >  Upload File  </button>
+            </div>
+            <div id = "Borivali" class="stationBox">
+                <div class="stationName">Borivali</div>
+                <img class="plusIcon" src="https://cdn4.iconfinder.com/data/icons/material-design-content-icons/512/add-circle-512.png"/>
+                <input type="file" accept="video/* image/*" name="videoInput" class="fileInput"/>
+                    Upload Progress  
+                <span class="progressBar">  0%   </span>
+                <div class="fileData"></div>
+                <button class="resumeButton" style="visibility: hidden;">Resume Upload</button>
+                <button class="uploadButton" >  Upload File  </button>
+            </div>
+            <div id = "Dadar" class="stationBox">
+                <div class="stationName">Dadar</div>
+                <img class="plusIcon" src="https://cdn4.iconfinder.com/data/icons/material-design-content-icons/512/add-circle-512.png"/>
+                <input type="file" accept="video/* image/*" name="videoInput" class="fileInput"/>
+                    Upload Progress  
+                <span class="progressBar">  0%   </span>
+                <div class="fileData"></div>
+                <button class="resumeButton" style="visibility: hidden;">Resume Upload</button>
+                <button class="uploadButton" >  Upload File  </button>
+            </div>
+            <div id = "Churchgate" class="stationBox">
+                <div class="stationName">Churchgate</div>
+                <img class="plusIcon" src="https://cdn4.iconfinder.com/data/icons/material-design-content-icons/512/add-circle-512.png"/>
+                <input type="file" accept="video/* image/*" name="videoInput" class="fileInput"/>
+                    Upload Progress  
+                <span class="progressBar">  0%   </span>
+                <div class="fileData"></div>
+                <button class="resumeButton" style="visibility: hidden;">Resume Upload</button>
+                <button class="uploadButton" >  Upload File  </button>
+            </div>
+            
+        </div>
+        
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="./../javascript/ResumableUpload.js"></script>
+    </body>
+</html>
+
+<!-- <video height="300" width="400" id="videoTag" controls>
+                <source id="videosrcTag"/>
+                Will be displayed only if your browser doesnt support video tag
+            </video> -->
