@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Appbar" parent="ThemeOverlay.MaterialComponents.Dark"/>
+</resources>
